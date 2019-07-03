@@ -9,7 +9,11 @@
 
 $(document).ready(function(){
     $('select').formSelect();
-    $('.datepicker').datepicker();
+    $('.datepicker').datepicker({
+      yearRange: 25,
+      changeMonth: true,
+      changeYear: true,
+    });
   });
   $(function(){
 
