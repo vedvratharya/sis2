@@ -30,7 +30,83 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+  <h2 class="header center teal-text text-lighten-2">Student Registration</h2>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input disabled id="name" type="text" class="validate" required="" value="Name" aria-required="true">
+          <label for="name"></label>
+        </div>
+        <div class="input-field col s6">
+          <input id="contact" type="text" class="validate" required="" maxlength="10" pattern="[5-9]{1}[0-9]{9}$" aria-required="true">
+          <label for="contact">Student's Contact</label>
+          <span class="helper-text" data-error="Invalid Phone Number"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="father_name" type="text" class="validate" required="" pattern="[A-Za-z\s]+" aria-required="true">
+          <label for="father_name">Father's Name</label>
+          <span class="helper-text" data-error="only characters"></span>
+        </div>
+        <div class="input-field col s6">
+          <input id="contact1" type="text" class="validate" required="" maxlength="10" pattern="[5-9]{1}[0-9]{9}$" aria-required="true">
+          <label for="contact1">Parent's Contact</label>
+          <span class="helper-text" data-error="Invalid Phone Number"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input disabled id="branch" type="text" class="validate" required="" value="Branch" aria-required="true">
+          <label for="branch"></label>
+        </div>
+        <div class="input-field col s6">
+          <input disabled id="year" type="text" class="validate" required="" value="Year" aria-required="true">
+          <label for="year"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+          <span class="helper-text" data-error="Invalid Email Format"></span>
+        </div>
+        <div class="input-field col s6">
+          <input disabled id="birthdate" type="text" class="validate" required="" value="Birthdate" aria-required="true">
+          <label for="birthdate"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input disabled id="hallticket" type="text" class="validate" required="" value="Hallticket" aria-required="true">
+          <label for="hallticket"></label>
+        </div>
+        <div class="input-field col s6">
+          <input id="aadhar" type="text" class="validate" required="" maxlength="12" pattern="[0-9]{12}$" aria-required="true">
+          <label for="aadhar">Aadhar Number</label>
+          <span class="helper-text" data-error="Invalid Aadhar Number"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="caddress" type="text" class="validate" required="" aria-required="true">
+          <label for="caddress">Current Address</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="paddress" type="text" class="validate" required="" aria-required="true">
+          <label for="paddress">Permanent Address</label>
+        </div>
+      </div>
+      <div class="center-align">
+        <button align="center" class="btn waves-effect waves-light btn-large" type="submit" name="action">Register
+            <i class="material-icons right">done_all</i>
+        </button>
+      </div>
+    </form>
+  </div>
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
