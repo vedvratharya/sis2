@@ -9,6 +9,7 @@
 
 $(document).ready(function(){
     $('select').formSelect();
+    $('.carousel').carousel();
     $('.datepicker').datepicker({
       yearRange: 25,
       changeMonth: true,
