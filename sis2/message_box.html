@@ -30,7 +30,39 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+   <h2 class="header center teal-text text-lighten-2">Message Box</h2>
+  <div class="row">
+    <form class="col s12">
+      <p align="center">
+    <label>
+      <input class="with-gap" name="type" type="radio" value="suggestion" checked />
+      <span>Suggestion</span>
+    </label>
+    <label>
+      <input class="with-gap" name="type" type="radio" value="query" />
+      <span>Query</span>
+    </label>
+  </p>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate" required="" pattern="[a-zA-Z\s]+" aria-required="true">
+          <label for="name">Name</label>
+          <span class="helper-text" data-error="only characters"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" required=""></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+  </div>
+  <div class="center-align">
+        <button align="center" class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+      </div>
+</form>
+  </div>
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
