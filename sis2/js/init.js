@@ -12,6 +12,7 @@ $(document).ready(function(){
     $('.carousel').carousel();
     $('.modal').modal();
     $('.slider').slider();
+    $('.materialboxed').materialbox();
     $('.datepicker').datepicker({
       yearRange: 25,
       changeMonth: true,
