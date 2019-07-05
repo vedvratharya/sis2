@@ -32,13 +32,15 @@
   </nav>
   <!-- Modal Trigger -->
   <div class="center-align">
-  <button data-target="modal1" class="btn modal-trigger pulse z-depth-3">Instructions</button>
+  <button data-target="modal1" id="m1" class="btn modal-trigger pulse z-depth-3">Instructions</button>
 
   <!-- Modal Structure -->
   <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <h4>Registration Instructions</h4>
-      <p>A bunch of text</p>
+      <p align="left">
+        
+      </p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
@@ -113,6 +115,15 @@
         <div class="input-field col s12">
           <input id="paddress" type="text" class="validate" required="" aria-required="true">
           <label for="paddress">Permanent Address</label>
+        </div>
+      </div>
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>File</span>
+          <input type="file">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">
         </div>
       </div>
       <div class="center-align">

@@ -18,6 +18,9 @@ $(document).ready(function(){
       changeMonth: true,
       changeYear: true,
     });
+    $("#m1").click(function(){
+       $(this).removeClass('pulse');                   
+   });
   });
   $(function(){
 
